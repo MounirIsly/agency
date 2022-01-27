@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 15px;
+    height: 100px;
+    color: white;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+button a {
+    color: black;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 0 8px;
+    align-items: center;
+}
+nav ul li {
+    padding: 5px;
+}
+nav ul li button {
+    background-color: white;
+    padding: 5px;
+    border-radius: 15px;
+    border: none;
+}
+.title {
+    text-align: center;
+    color: white;
+}
+.title h1 {
+    font-size: 70px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+header {
+    height: 600px;
+    background-image: url(../images/desktop/image-header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.content {
+    display: flex;
+}
